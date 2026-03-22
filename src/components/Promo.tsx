@@ -25,13 +25,20 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <div className="absolute inset-0 bg-black/50 z-[1]" />
+      <h3 id="poems" className="absolute top-12 left-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
+        Русская поэзия
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-6 text-center">
+        <p className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold italic max-w-4xl leading-tight mb-6">
+          «Я помню чудное мгновенье:<br/>передо мной явилась ты»
+        </p>
+        <p className="text-neutral-300 text-sm tracking-widest uppercase">— Александр Пушкин</p>
+      </div>
+
+      <p className="absolute bottom-12 left-6 text-white text-sm z-10 opacity-60 uppercase tracking-widest">
+        XIX — XX век
       </p>
     </div>
   );
